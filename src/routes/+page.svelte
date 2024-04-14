@@ -12,7 +12,19 @@
 			title: `test video`,
 			default_quality: '1080p',
 			thumbnails: 'https://pixeldrain.com/api/file/ZizkyAZB',
-			points:[{time:10, width:"90s", opacity:1, color:"#000000", text:"Description"},{time:33}]
+			points:[{time:10, width:"90s", opacity:1, color:"#000000", text:"Description"},{time:33}],
+			rec: [
+				{
+					title: 'Metallic Rouge - 03',
+					poster: 'https://pixeldrain.com/api/file/Q5qJr1HK',
+					link: 'http://localhost:5173/anime/Metallic_Rouge/3/watch'
+				},
+				{
+					title: 'Metallic Rouge - 04',
+					poster: 'https://pixeldrain.com/api/file/KeZXEWXa',
+					link: 'http://localhost:5173/anime/Metallic_Rouge/4/watch'
+				}
+			]
 		});
 		document.getElementById('player').addEventListener('init', playerInit);
 	});
