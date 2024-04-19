@@ -32,4 +32,10 @@
 		font-weight: normal;
 		font-style: normal;
 	}
+	@font-face {
+		font-family: 'roboto';
+		src: url('Gilroy-SemiBold.woff2') format('woff2');
+		font-weight: normal;
+		font-style: normal;
+	}
 </style>
